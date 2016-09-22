@@ -3,9 +3,27 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/data-mobile.css" />
 		<script type="text/javascript" src="js/jquery-1.9.1.js" ></script>
 		<script type="text/javascript" src="js/data-mobile.js" ></script>
+		
 	</head>
+	
+	
 	<body>
+		<input type="text" id="demo" >
+		<input type="text" id="demo1" >
+		<script>
+			$("#demo").data_mobile({
+				"setDate":"2015-09-20 15:30",
+				"el":"#demo"
+			})
+			$("#demo1").data_mobile({
+				"setDate":"2015-08-20 15:30",
+				"el":"#demo1"
+			})
+		</script>
 	</body>
 </html>
